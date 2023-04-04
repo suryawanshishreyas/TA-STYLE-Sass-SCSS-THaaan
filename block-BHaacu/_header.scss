@@ -1,0 +1,34 @@
+.header{
+    background-color: #dc3c45;
+    z-index: 0;
+}
+.header-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    font-size: 14px;
+}
+.panel-list{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.panel-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    color: white;
+}
+.panel-2{
+    @extend .panel-1;
+    align-items: end;
+    padding-left: 0px;
+    padding-right: 100px;
+}
+
+i{
+    margin: 0 8px;
+}
