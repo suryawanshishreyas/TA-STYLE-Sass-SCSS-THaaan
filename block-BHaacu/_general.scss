@@ -1,0 +1,38 @@
+body{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@media (min-width:768px) and (max-width:1800px) {
+
+    .header{
+        width: 170%;
+    }
+    .home-image img{
+        width: 40%;
+        margin-left: 400px;
+    }
+}
+
+@media (min-width:100px) and (max-width:768px) {
+
+    .header{
+        width: 350%
+    }
+    .home-image img{
+        width: 10%;
+    }
+    .home-text{
+        width: 10%;
+    }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UniTech Assignment I</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <div class="header-panel">
+                <ul class="panel-1">
+                    <li class="panel-list">
+                        <a href="#"><i class="fa fa-phone fa-rotate-270" aria-hidden="true" style="color:white"></i></a>
+                        +1-1245-678-980
+                    </li>
+                    <li class="panel-list">
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true" style="color:white"></i></a>
+                        info@yourdomain.com
+                    </li>
+                </ul>
+                <ul class="panel-2">
+                    <li class="panel-list"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true" style="color:white"></i></a></li>
+                    <li class="panel-list"><a href="#"><i class="fa fa-instagram" aria-hidden="true" style="color:white"></i></a></li>
+                    <li class="panel-list"><a href="#"><i class="fa fa-twitter" aria-hidden="true" style="color:white"></i></a></li>
+                    <li class="panel-list"><a href="#"><i class="fa fa-futbol-o" aria-hidden="true" style="color:white"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="navigation">
+            <div class="navigator">
+                <h1 class="nav-header"><span>Uni </span>TECH</h1>
+                <ul class="nav-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pages" onclick="toggleMenu()">Pages</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                    <li><a href="#blog" onclick="toggleMenu1()">Blog</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-option">
+                        <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">404 Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-menu-wrap1" id="subMenu1">
+                <div class="sub-menu1">
+                    <div class="user-option1">
+                        <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog Single</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home-page">
+            <div class="home">
+                <div class="home-text">
+                    <h1>BEST BUISNESS <br>SERVICES</h1>
+                    <p>Lets Grow Your Buisness Together</p>
+                    <button>Quick Call</button>
+                </div>
+                <div class="home-image">
+                    <img alt="home-image" src="./assets/media/banner-1.jpg">
+                </div>
+            </div>
+            <div class="home-page-footer">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae vel voluptatum, nostrum nulla qui, eos eius quos ipsam eaque aliquid.
+                </p>
+            </div>
+
+        </section>
+        <section class="solutions">
+            <div class="features">
+                <div class="feature-name">
+                    <img alt="" src="./assets/media/feature.svg">
+                    <h2>Consulting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum rem consequatur voluptatibus! Temporibus neque corporis voluptatum, sunt labore debitis ut eaque possimus aut? Repellat commodi at nisi maxime tempore.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="feature-name">
+                    <img alt="" src="./assets/media/finance.svg">
+                    <h2>Finance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum rem consequatur voluptatibus! Temporibus neque corporis voluptatum, sunt labore debitis ut eaque possimus aut? Repellat commodi at nisi maxime tempore.</p>
+                    <button>Read More</button>
+
+                </div>
+                <div class="feature-name">
+                    <img alt="" src="./assets/media/technology.svg">
+                    <h2>Technology</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum rem consequatur voluptatibus! Temporibus neque corporis voluptatum, sunt labore debitis ut eaque possimus aut? Repellat commodi at nisi maxime tempore.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="solutions-footer">
+                <h1>Get all type of Solutions</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat debitis eaque sunt illum aliquid, expedita, iusto repellat sit aut earum, nulla repellendus? Consequatur corrupti delectus nam fugit reiciendis ipsa animi.</p>
+                <button>Read More</button>
+            </div>
+        </section>
+        <script>
+            let subMenu =document.getElementById("subMenu");
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+            let subMenu1 =document.getElementById("subMenu1");
+            function toggleMenu1(){
+                subMenu1.classList.toggle("open-menu1");
+            }
+        </script>
+    </body>
+</html>
